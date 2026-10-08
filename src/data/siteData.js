@@ -25,6 +25,8 @@ import pic24 from '../assets/images/pic24.jpeg';
 import heroImg from '../assets/hero.png';
 
 import heroEnhancedDining from '../assets/images/hero_enhanced_dining.jpg';
+import heroEnhancedPic15 from '../assets/images/hero_enhanced_pic15.jpg';
+import heroEnhancedPic21 from '../assets/images/hero_enhanced_pic21.jpg';
 
 export const siteData = {
   company: {
@@ -53,7 +55,7 @@ export const siteData = {
     description: "We provide the easiest, most reliable way to buy and sell old furniture, antique watches, and more in Kolkata.",
     primaryCTA: "Call Now",
     secondaryCTA: "View Gallery",
-    images: [heroEnhancedDining],
+    images: [heroEnhancedDining, heroEnhancedPic15, heroEnhancedPic21],
     video: "",
   },
   about: {

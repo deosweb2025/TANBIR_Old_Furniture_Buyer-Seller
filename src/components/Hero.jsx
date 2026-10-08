@@ -28,7 +28,7 @@ const Hero = () => {
     if (images && images.length > 1) {
       const interval = setInterval(() => {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-      }, 2500); // 2.5s gives enough time to see the image before transition
+      }, 2000); // 2s gives enough time to see the image before transition
       return () => clearInterval(interval);
     }
   }, [images]);
